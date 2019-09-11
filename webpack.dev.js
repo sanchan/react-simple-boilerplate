@@ -43,7 +43,7 @@ module.exports = (env, options) => {
       // extensions: ['*', '.js', '.jsx'],
       alias: {
         // https://github.com/gaearon/react-hot-loader#react--dom
-        'react-dom': '@hot-loader/react-dom',
+        // 'react-dom': '@hot-loader/react-dom',
         components: path.join(rootPath, 'src/components'),
         constants: path.join(rootPath, 'src/constants'),
         store: path.join(rootPath, 'src/store'),
